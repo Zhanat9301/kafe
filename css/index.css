@@ -381,6 +381,9 @@ button {
   align-items: center;
   padding-bottom: 170px;
 }
+.footer__logo {
+  padding-top: 120px;
+}
 .footer__img {
   padding-top: 120px;
 }

@@ -1,10 +1,15 @@
 .footer {
     background: #0A0E1A;
+
     &__content {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-bottom: 170px;
+    }
+
+    &__logo {
+        padding-top: 120px;
     }
 
     &__img {
@@ -43,36 +48,46 @@
     &__icon {
         margin-left: 30px;
     }
-    &__link:hover::before{
+
+    &__link:hover::before {
         opacity: .4;
     }
+
     &__link:nth-child(1)::before {
-        background: #180e70 ;
+        background: #180e70;
     }
+
     &__link:nth-child(2)::before {
-        background: #5a40ca ;
+        background: #5a40ca;
     }
+
     &__link:nth-child(3)::before {
-        background: #f0416d ;
+        background: #f0416d;
     }
+
     &__link:hover::before {
         transform: translate(-4, -4);
         filter: blur(10px);
     }
+
     &__link i {
         font-size: 1.7em;
         transition: all .4s;
     }
+
     &__link:hover i {
         color: #c8c8c8;
         transform: rotate(-45deg);
     }
+
     &__link:hover i.facebook {
         color: #180e70;
     }
+
     &__link:hover i.twitter {
-        color: #5a40ca ;
+        color: #5a40ca;
     }
+
     &__link:hover i.instagram {
         color: #f0416d;
     }
