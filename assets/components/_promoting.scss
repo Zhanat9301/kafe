@@ -1,0 +1,67 @@
+.promoting {
+    padding-top: 120px;
+
+    &__title {
+        font-family: 'Libre Franklin';
+        font-weight: 100;
+        font-size: 24px;
+        color: #999999;
+        max-width: 507px;
+        padding-left: 135px;
+    }
+
+    &__sp {
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    &__sector {
+        max-width: 1119px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 125px;
+        padding-left: 125px;
+    }
+
+    &__box {
+        border: 1px solid #f8f7f7;
+        max-width: 377px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    &__suptitle {
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 16px;
+        color: #000000;
+        margin-left: 40px;
+    }
+
+    &__description {
+        margin-top: 13px;
+        margin-bottom: 100px;
+        margin-right: 60px;
+        margin-left: 40px;
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 13px;
+        color: #999999;
+        width: 272px;
+    }
+
+    &__box {
+        margin-top: 105px;
+        max-width: 377px;
+    }
+
+    &__icon {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        width: 60px;
+        height: 60px;
+    }
+}

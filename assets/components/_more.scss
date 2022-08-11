@@ -1,0 +1,41 @@
+.more {
+    &__description {
+        max-width: 685px;
+        font-family: 'Libre Franklin';
+        font-weight: 100;
+        font-size: 24px;
+        text-align: center;
+        color: #999999;
+    }
+
+    &__span {
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    &__img {
+        margin-top: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    &__link {
+        margin-top: 6px;
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 11px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #5AB963;
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 105px;
+        padding-bottom: 115px;
+    }
+}

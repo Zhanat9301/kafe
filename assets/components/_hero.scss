@@ -1,0 +1,46 @@
+.hero {   
+   width: 100%;
+   min-height: 600px;
+   background: url(../assets/img/hero/fon.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: -2;
+   &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 210px;
+      padding-bottom: 120px;
+   }
+   &__title {
+      font-family: "Libre Franklin";
+      font-weight: 700;
+      font-size: 71px;
+      letter-spacing: 1px;
+      color: #ffffff;
+   }
+   &__discription {
+      margin-top: 35px;
+      font-family: "IBM Plex Mono";
+      font-weight: 600;
+      font-size: 13px;
+      color: #ffffff;
+   }
+   &__btns {
+      margin-top: 60px;
+      font-family: "Libre Franklin";
+      font-weight: 400;
+      font-size: 16px;
+      padding: 15px 30px;
+      border-radius: 4px;
+      color: #ffffff;
+      background:#5AB963;
+      border: none;
+      transition: .3s;
+   }
+   &__btns:hover{
+      color: rgb(150, 147, 147);
+      background: rgb(127, 241, 165);
+   }
+}

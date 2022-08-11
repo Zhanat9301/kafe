@@ -1,0 +1,68 @@
+.party {
+    &__content{
+        
+      margin-top: 100px;
+      padding-top: 110px;
+      border-top: 1px solid  gray;
+    }
+    &__title {
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 16px;
+        color: #5AB963;
+        margin-right: 20px;
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        div{
+            width: 30px;
+            height: 2px;
+            background: #5AB963;
+            
+        }
+    }
+    &__link:hover, &__link:active{
+        opacity: .75;
+     }
+    
+    &__description {
+        max-width: 483px;
+        font-family: 'Libre Franklin';
+        font-weight: 100;
+        font-size: 24px;
+        color: #999999;
+        margin-top: 15px;
+    }
+
+    &__span {
+        font-family: 'Libre Franklin';
+        font-weight: 400;
+        font-size: 24px;
+        color: #000000;
+    }
+
+    &__btn {
+        background: #5AB963;
+        border-radius: 4px;
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 15px 30px;
+       
+        border: none;
+        transition: .3s;
+
+    }
+    &__btn:hover{
+        color: rgb(150, 147, 147);
+        background: rgb(127, 241, 165);
+     }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+}

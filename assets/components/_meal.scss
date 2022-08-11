@@ -1,0 +1,72 @@
+.meal {
+    .content{
+      margin-top: 100px;
+      padding-top: 110px;
+      border-top:  solid 1px  gray;
+    }
+    &__box {
+        display: flex;
+        margin-top: 90px;
+        
+        padding-left: 135px;
+    }
+    &__box-e{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 90px;
+        
+        padding-right: 135px;
+    }
+    &__title {
+        max-width: 362px;
+        font-family: 'Libre Franklin';
+        font-weight: 100;
+        font-size: 24px;
+        color: #000000
+    }
+    &__span {
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000
+    }
+    &__description {
+        margin-top: 25px;
+        max-width: 360px;
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 13px;
+        color: #999999;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+    &__img {
+        margin-right: 100px;
+    }
+    &__suptitle {
+        margin-bottom: 12px;
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        color: #000000
+    }
+    &__link {
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 11px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__foo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 110px;
+        padding-bottom: 120px;
+    }
+}

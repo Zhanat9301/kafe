@@ -1,0 +1,85 @@
+.footer {
+    background: #0A0E1A;
+
+    // background-size: 1440px;
+    // max-width: 1440px;
+    // height: 4ff00px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 170px;
+    }
+
+    &__img {
+        padding-top: 120px;
+    }
+
+    &__date {
+        font-family: 'Libre Franklin';
+        font-weight: 400;
+        font-size: 12px;
+        color: #666666;
+        padding-top: 120px;
+    }
+
+    &__link {
+        margin-bottom: 25px;
+        font-family: 'Libre Franklin';
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+
+    }
+
+    &__info {
+        display: flex;
+        // justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    &__social {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        margin-left: 30px;
+    }
+    &__link:hover::before{
+        opacity: .4;
+    }
+    &__link:nth-child(1)::before {
+        background: #180e70 ;
+    }
+    &__link:nth-child(2)::before {
+        background: #5a40ca ;
+    }
+    &__link:nth-child(3)::before {
+        background: #f0416d ;
+    }
+    &__link:hover::before {
+        transform: translate(-4, -4);
+        filter: blur(10px);
+    }
+    &__link i {
+        font-size: 1.7em;
+        transition: all .4s;
+    }
+    &__link:hover i {
+        color: #c8c8c8;
+        transform: rotate(-45deg);
+    }
+    &__link:hover i.facebook {
+        color: #180e70;
+    }
+    &__link:hover i.twitter {
+        color: #5a40ca ;
+    }
+    &__link:hover i.instagram {
+        color: #f0416d;
+    }
+
+
+}
